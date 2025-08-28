@@ -1,5 +1,50 @@
 
 *{
   font-family: "Roboto", sans-serif;
-  border: 1px solid red;
+  /* border: 1px solid red; */
+}
+
+
+.header{
+    width: 100%;
+    height: 100px;
+}
+
+.header_main{
+    background-color: white;
+    width: 1440px;
+    height: 100px;
+    margin: 0 auto;
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header_left{
+    width: 200px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;;
+}
+
+
+.header_left img{
+    width: 50px;
+    height: 50px;
+}
+
+.text{
+    width: 135.72px;
+    height: 44.69px;
+}
+
+.text h1{
+    font-size: 18px;
+    text-transform: capitalize;
+    text-wrap: wrap;
+    font-weight: bold;
+    color: rgba(0, 103, 71, 1);;
 }
