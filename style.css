@@ -137,3 +137,91 @@
 }
 
 
+/* responsive with regular css */
+
+@media (min-width: 0px) and (max-width: 430px) {
+
+    body{
+        width: 100%;
+    }
+
+    .header_main{
+        width: 100%;
+        height: 60px;
+        left: 0;
+        top: 0;
+        padding: 0 10px;
+    }
+
+    .header_left{
+        width: auto;
+        gap: 10px;
+    }
+
+    .header_right{
+        width: auto;
+        gap: 10px;
+    }
+
+    .heart, .coin{
+        width: auto;
+        padding: 0 15px;
+        margin-right: 15px;
+        height: auto;
+    }
+
+    .coin h1{
+        font-size: 13px;
+    }
+
+    .coin img{
+        width: 13px;
+        height: 13px;
+    }
+
+    .heart img{
+        width: 13px;
+        height: 13px;
+    }
+
+    .heart h1{
+        font-size: 13px;
+    }
+
+    .copy{
+        display: none;
+    }
+
+    .banner{
+        width: auto;
+        height: 200px;
+        text-align: center;
+        text-wrap: wrap;
+    }
+
+
+    .banner img{
+        width: 40px;
+        height: 40px;
+    }
+
+    .banner h1{
+        font-size: 20px;
+    }
+
+    .banner p{
+        font-size: 12px;
+        width: 100%;
+    }
+
+    .history{
+        display: none;
+    }
+
+    .number_grid{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 10px;
+    }
+}
+
