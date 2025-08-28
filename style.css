@@ -8,14 +8,19 @@
 .header{
     width: 100%;
     height: 100px;
+    box-shadow: 0px 1px 50px 0px rgba(181, 181, 181, 0.25);
+    background: rgba(255, 255, 255, 1);
 }
 
 .header_main{
+    top: 2%;
+    left: 15%;
+    position: absolute;
     background-color: white;
     width: 1440px;
-    height: 100px;
+    height: 60px;
     margin: 0 auto;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -46,5 +51,87 @@
     text-transform: capitalize;
     text-wrap: wrap;
     font-weight: bold;
-    color: rgba(0, 103, 71, 1);;
+    color: rgba(0, 103, 71, 1);
+}
+
+
+.header_right{
+    width: 460px;
+    height: 100%;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.heart{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    width: 123px;
+    height: 40px;
+    border-radius: 50px;
+    background: rgba(65, 255, 107, 0.1);
+}
+
+.heart h1{
+    font-size: 20px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 1);
+}
+
+.heart img{
+    width: 30px;
+    height: 30px;
+}
+
+
+.coin{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    width: 123px;
+    height: 40px;
+    border-radius: 50px;
+    background: rgba(65, 255, 107, 0.1);
+}
+
+
+.coin img{
+    width: 30px;
+    height: 30px;
+}
+
+.coin h1{
+    font-size: 20px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 1);
+}
+
+
+.copy{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    width: 123px;
+    height: 40px;
+    border-radius: 50px;
+    background: rgba(0, 166, 62, 1);
+}
+
+
+.copy h1{
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+}
+
+.copy span{
+    font-size: 14px;
+    font-weight: 500;
+    color: white;
+    text-transform: capitalize;
 }
