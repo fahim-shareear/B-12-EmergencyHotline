@@ -24,15 +24,15 @@
             </div>
             <div class="header_right">
                 <div class="heart">
-                    <h1>0</h1>
+                    <h1 id="count">0</h1>
                     <img src="assets/heart.png" alt="">
                 </div>
                 <div class="coin">
-                    <h1>100</h1>
+                    <h1 id="coin">100</h1>
                     <img src="assets/coin.png" alt="">
                 </div>
                 <div class="copy">
-                    <h1>0</h1>
+                    <h1 id="copy">0</h1>
                     <span>copy</span>
                 </div>
             </div>
@@ -57,7 +57,7 @@
                 <div class="service_card w-[320px] h-[250px] bg-[#ffffff] rounded-[12px] shadow-[0_2px_3px_0_rgba(0,0,0,0.15)]">
                     <div class="service_img w-[100%] h-[50px] flex items-center justify-between top-3">
                         <img src="assets/emergency.png" alt="logo" class="w-[50px] h-[50px] p-3">
-                        <i class="p-3 fa-regular fa-heart text-[25px] mr-5"></i>
+                        <i class="p-3 fa-regular fa-heart text-[25px] mr-5" id="heart"></i>
                     </div>
                     <div class="service_details w-[100%] h-[150px]">
                         <div class="servicetitle w-[100%] h-[100%]">
@@ -76,7 +76,7 @@
                             </button>
                             <button type="button" class="w-[140px] h-[25px] flex items-center justify-center gap-2 mr-2 rounded-[5px] bg-[#4CAF50]">
                                 <i class="text-white fa-solid fa-phone"></i>
-                                <p class="font[400] capitalize text-[15px] text-white">call</p>
+                                <p class="font[400] capitalize text-[15px] text-white" id="call">call</p>
                             </button>
                     </div>
                 </div>
@@ -84,7 +84,7 @@
                 <div class="service_card w-[320px] h-[250px] bg-[#ffffff] rounded-[12px] shadow-[0_2px_3px_0_rgba(0,0,0,0.15)]">
                     <div class="service_img w-[100%] h-[50px] flex items-center justify-between top-3">
                         <img src="assets/police.png" alt="logo" class="w-[50px] h-[50px] p-3">
-                        <i class="p-3 fa-regular fa-heart text-[25px] mr-5"></i>
+                        <i class="p-3 fa-regular fa-heart text-[25px] mr-5" id="heart"></i>
                     </div>
                     <div class="service_details w-[100%] h-[150px]">
                         <div class="servicetitle w-[100%] h-[100%]">
@@ -99,11 +99,11 @@
                     <div class="service_btn w-[100%] h-[50px] flex items-center justify-between">
                             <button type="button" class="w-[140px] h- [30px] flex items-center justify-center gap-2 ml-2 border border-[#c0c5c3] rounded-[5px]">
                                 <i class="fa-regular fa-copy font-[300] text-[rgba(212,214,215,1)]"></i>
-                                <p class="font[400] text-[#858585] capitalize text-[15px]">copy</p>
+                                <p class="font[400] text-[#858585] capitalize text-[15px]" id="copy">copy</p>
                             </button>
                             <button type="button" class="w-[140px] h-[25px] flex items-center justify-center gap-2 mr-2 rounded-[5px] bg-[#4CAF50]">
                                 <i class="text-white fa-solid fa-phone"></i>
-                                <p class="font[400] capitalize text-[15px] text-white">call</p>
+                                <p class="font[400] capitalize text-[15px] text-white" id="call">call</p>
                             </button>
                     </div>
                 </div>
@@ -111,7 +111,7 @@
                 <div class="service_card w-[320px] h-[250px] bg-[#ffffff] rounded-[12px] shadow-[0_2px_3px_0_rgba(0,0,0,0.15)]">
                     <div class="service_img w-[100%] h-[50px] flex items-center justify-between top-3">
                         <img src="assets/fire-service.png" alt="logo" class="w-[50px] h-[50px] p-3">
-                        <i class="p-3 fa-regular fa-heart text-[25px] mr-5"></i>
+                        <i class="p-3 fa-regular fa-heart text-[25px] mr-5" id="heart"></i>
                     </div>
                     <div class="service_details w-[100%] h-[150px]">
                         <div class="servicetitle w-[100%] h-[100%]">
@@ -126,11 +126,11 @@
                     <div class="service_btn w-[100%] h-[50px] flex items-center justify-between">
                             <button type="button" class="w-[140px] h- [30px] flex items-center justify-center gap-2 ml-2 border border-[#c0c5c3] rounded-[5px]">
                                 <i class="fa-regular fa-copy font-[300] text-[rgba(212,214,215,1)]"></i>
-                                <p class="font[400] text-[#858585] capitalize text-[15px]">copy</p>
+                                <p class="font[400] text-[#858585] capitalize text-[15px]" id="copy">copy</p>
                             </button>
                             <button type="button" class="w-[140px] h-[25px] flex items-center justify-center gap-2 mr-2 rounded-[5px] bg-[#4CAF50]">
                                 <i class="text-white fa-solid fa-phone"></i>
-                                <p class="font[400] capitalize text-[15px] text-white">call</p>
+                                <p class="font[400] capitalize text-[15px] text-white" id="call">call</p>
                             </button>
                     </div>
                 </div>  
@@ -138,7 +138,7 @@
                 <div class="service_card w-[320px] h-[250px] bg-[#ffffff] rounded-[12px] shadow-[0_2px_3px_0_rgba(0,0,0,0.15)]">
                     <div class="service_img w-[100%] h-[50px] flex items-center justify-between top-3">
                         <img src="assets/ambulance.png" alt="logo" class="w-[50px] h-[50px] p-3">
-                        <i class="p-3 fa-regular fa-heart text-[25px] mr-5"></i>
+                        <i class="p-3 fa-regular fa-heart text-[25px] mr-5" id="heart"></i>
                     </div>
                     <div class="service_details w-[100%] h-[150px]">
                         <div class="servicetitle w-[100%] h-[100%]">
@@ -153,11 +153,11 @@
                     <div class="service_btn w-[100%] h-[50px] flex items-center justify-between">
                             <button type="button" class="w-[140px] h- [30px] flex items-center justify-center gap-2 ml-2 border border-[#c0c5c3] rounded-[5px]">
                                 <i class="fa-regular fa-copy font-[300] text-[rgba(212,214,215,1)]"></i>
-                                <p class="font[400] text-[#858585] capitalize text-[15px]">copy</p>
+                                <p class="font[400] text-[#858585] capitalize text-[15px]" id="copy">copy</p>
                             </button>
                             <button type="button" class="w-[140px] h-[25px] flex items-center justify-center gap-2 mr-2 rounded-[5px] bg-[#4CAF50]">
                                 <i class="text-white fa-solid fa-phone"></i>
-                                <p class="font[400] capitalize text-[15px] text-white">call</p>
+                                <p class="font[400] capitalize text-[15px] text-white" id="call">call</p>
                             </button>
                     </div>
                 </div>  
@@ -166,7 +166,7 @@
                 <div class="service_card w-[320px] h-[250px] bg-[#ffffff] rounded-[12px] shadow-[0_2px_3px_0_rgba(0,0,0,0.15)]">
                     <div class="service_img w-[100%] h-[50px] flex items-center justify-between top-3">
                         <img src="assets/emergency.png" alt="logo" class="w-[50px] h-[50px] p-3">
-                        <i class="p-3 fa-regular fa-heart text-[25px] mr-5"></i>
+                        <i class="p-3 fa-regular fa-heart text-[25px] mr-5" id="heart"></i>
                     </div>
                     <div class="service_details w-[100%] h-[150px]">
                         <div class="servicetitle w-[100%] h-[100%]">
@@ -181,11 +181,11 @@
                     <div class="service_btn w-[100%] h-[50px] flex items-center justify-between">
                             <button type="button" class="w-[140px] h- [30px] flex items-center justify-center gap-2 ml-2 border border-[#c0c5c3] rounded-[5px]">
                                 <i class="fa-regular fa-copy font-[300] text-[rgba(212,214,215,1)]"></i>
-                                <p class="font[400] text-[#858585] capitalize text-[15px]">copy</p>
+                                <p class="font[400] text-[#858585] capitalize text-[15px]" id="copy">copy</p>
                             </button>
                             <button type="button" class="w-[140px] h-[25px] flex items-center justify-center gap-2 mr-2 rounded-[5px] bg-[#4CAF50]">
                                 <i class="text-white fa-solid fa-phone"></i>
-                                <p class="font[400] capitalize text-[15px] text-white">call</p>
+                                <p class="font[400] capitalize text-[15px] text-white" id="call">call</p>
                             </button>
                     </div>
                 </div>  
@@ -193,7 +193,7 @@
                 <div class="service_card w-[320px] h-[250px] bg-[#ffffff] rounded-[12px] shadow-[0_2px_3px_0_rgba(0,0,0,0.15)]">
                     <div class="service_img w-[100%] h-[50px] flex items-center justify-between top-3">
                         <img src="assets/emergency.png" alt="logo" class="w-[50px] h-[50px] p-3">
-                        <i class="p-3 fa-regular fa-heart text-[25px] mr-5"></i>
+                        <i class="p-3 fa-regular fa-heart text-[25px] mr-5" id="heart"></i>
                     </div>
                     <div class="service_details w-[100%] h-[150px]">
                         <div class="servicetitle w-[100%] h-[100%]">
@@ -208,11 +208,11 @@
                     <div class="service_btn w-[100%] h-[50px] flex items-center justify-between">
                             <button type="button" class="w-[140px] h- [30px] flex items-center justify-center gap-2 ml-2 border border-[#c0c5c3] rounded-[5px]">
                                 <i class="fa-regular fa-copy font-[300] text-[rgba(212,214,215,1)]"></i>
-                                <p class="font[400] text-[#858585] capitalize text-[15px]">copy</p>
+                                <p class="font[400] text-[#858585] capitalize text-[15px]" id="copy">copy</p>
                             </button>
                             <button type="button" class="w-[140px] h-[25px] flex items-center justify-center gap-2 mr-2 rounded-[5px] bg-[#4CAF50]">
                                 <i class="text-white fa-solid fa-phone"></i>
-                                <p class="font[400] capitalize text-[15px] text-white">call</p>
+                                <p class="font[400] capitalize text-[15px] text-white" id="call">call</p>
                             </button>
                     </div>
                 </div>  
@@ -220,7 +220,7 @@
                 <div class="service_card w-[320px] h-[250px] bg-[#ffffff] rounded-[12px] shadow-[0_2px_3px_0_rgba(0,0,0,0.15)]">
                     <div class="service_img w-[100%] h-[50px] flex items-center justify-between top-3">
                         <img src="assets/brac.png" alt="logo" class="w-[50px] h-[50px] p-3">
-                        <i class="p-3 fa-regular fa-heart text-[25px] mr-5"></i>
+                        <i class="p-3 fa-regular fa-heart text-[25px] mr-5" id="heart"></i>
                     </div>
                     <div class="service_details w-[100%] h-[150px]">
                         <div class="servicetitle w-[100%] h-[100%]">
@@ -235,11 +235,11 @@
                     <div class="service_btn w-[100%] h-[50px] flex items-center justify-between">
                             <button type="button" class="w-[140px] h- [30px] flex items-center justify-center gap-2 ml-2 border border-[#c0c5c3] rounded-[5px]">
                                 <i class="fa-regular fa-copy font-[300] text-[rgba(212,214,215,1)]"></i>
-                                <p class="font[400] text-[#858585] capitalize text-[15px]">copy</p>
+                                <p class="font[400] text-[#858585] capitalize text-[15px]" id="copy">copy</p>
                             </button>
                             <button type="button" class="w-[140px] h-[25px] flex items-center justify-center gap-2 mr-2 rounded-[5px] bg-[#4CAF50]">
                                 <i class="text-white fa-solid fa-phone"></i>
-                                <p class="font[400] capitalize text-[15px] text-white">call</p>
+                                <p class="font[400] capitalize text-[15px] text-white" id="call">call</p>
                             </button>
                     </div>
                 </div>  
@@ -247,7 +247,7 @@
                 <div class="service_card w-[320px] h-[250px] bg-[#ffffff] rounded-[12px] shadow-[0_2px_3px_0_rgba(0,0,0,0.15)]">
                     <div class="service_img w-[100%] h-[50px] flex items-center justify-between top-3">
                         <img src="assets/emergency.png" alt="logo" class="w-[50px] h-[50px] p-3">
-                        <i class="p-3 fa-regular fa-heart text-[25px] mr-5"></i>
+                        <i class="p-3 fa-regular fa-heart text-[25px] mr-5" id="heart"></i>
                     </div>
                     <div class="service_details w-[100%] h-[150px]">
                         <div class="servicetitle w-[100%] h-[100%]">
@@ -262,11 +262,11 @@
                     <div class="service_btn w-[100%] h-[50px] flex items-center justify-between">
                             <button type="button" class="w-[140px] h- [30px] flex items-center justify-center gap-2 ml-2 border border-[#c0c5c3] rounded-[5px]">
                                 <i class="fa-regular fa-copy font-[300] text-[rgba(212,214,215,1)]"></i>
-                                <p class="font[400] text-[#858585] capitalize text-[15px]">copy</p>
+                                <p class="font[400] text-[#858585] capitalize text-[15px]" id="copy">copy</p>
                             </button>
                             <button type="button" class="w-[140px] h-[25px] flex items-center justify-center gap-2 mr-2 rounded-[5px] bg-[#4CAF50]">
                                 <i class="text-white fa-solid fa-phone"></i>
-                                <p class="font[400] capitalize text-[15px] text-white">call</p>
+                                <p class="font[400] capitalize text-[15px] text-white" id="call">call</p>
                             </button>
                     </div>
                 </div>  
@@ -274,7 +274,7 @@
                 <div class="service_card w-[320px] h-[250px] bg-[#ffffff] rounded-[12px] shadow-[0_2px_3px_0_rgba(0,0,0,0.15)]">
                     <div class="service_img w-[100%] h-[50px] flex items-center justify-between top-3">
                         <img src="assets/emergency.png" alt="logo" class="w-[50px] h-[50px] p-3">
-                        <i class="p-3 fa-regular fa-heart text-[25px] mr-5"></i>
+                        <i class="p-3 fa-regular fa-heart text-[25px] mr-5" id="heart"></i>
                     </div>
                     <div class="service_details w-[100%] h-[150px]">
                         <div class="servicetitle w-[100%] h-[100%]">
@@ -289,11 +289,11 @@
                     <div class="service_btn w-[100%] h-[50px] flex items-center justify-between">
                             <button type="button" class="w-[140px] h- [30px] flex items-center justify-center gap-2 ml-2 border border-[#c0c5c3] rounded-[5px]">
                                 <i class="fa-regular fa-copy font-[300] text-[rgba(212,214,215,1)]"></i>
-                                <p class="font[400] text-[#858585] capitalize text-[15px]">copy</p>
+                                <p class="font[400] text-[#858585] capitalize text-[15px]" id="copy">copy</p>
                             </button>
-                            <button type="button" class="w-[140px] h-[25px] flex items-center justify-center gap-2 mr-2 rounded-[5px] bg-[#4CAF50]">
+                            <button type="button" class="w-[140px] h-[25px] flex items-center justify-center gap-2 mr-2 rounded-[5px] bg-[#4CAF50]" id="call">
                                 <i class="text-white fa-solid fa-phone"></i>
-                                <p class="font[400] capitalize text-[15px] text-white">call</p>
+                                <p class="font[400] capitalize text-[15px] text-white" id="call">call</p>
                             </button>
                     </div>
                 </div>  
@@ -301,7 +301,7 @@
 
             </div>
 
-            <div class="history w-[350px] h-[100%] flex flex-col items-center justify-center gap-[10px] p-[24px] rounded-[12px] bg-[#ffffff]"></div>
+            <div class="history w-[350px] h-[850px] flex flex-col items-center justify-center gap-[10px] p-[24px] rounded-[12px] bg-[#ffffff]"></div>
         </div>
     </div>
 <script src="main.js"></script>
